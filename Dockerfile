@@ -1,4 +1,4 @@
-FROM CentOS:7
+FROM centos:7
 RUN yum -y update; \
     yum install -y epel-release curl gcc-c++ make;
 
